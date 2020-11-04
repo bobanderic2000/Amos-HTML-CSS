@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.wrap{
+  background-color: #fbfbfb;
+  display: flex;
+  width: 100%;
+}
+.intro{
+  background-color: #99a;
+  width: 400px;
+  margin: 20px;
+}
+.intro>img{
+  width: 100%;
+}
+.icon{
+  width: 100%;
+  display: flex;
+}
+.icon img{
+  padding: 0 3px;
+}
+.youtuber{
+padding: 10px;
+display: flex;
+}
+.channel{
+  display: flex;
+  height: 63px;
+}
+.channel>span{
+padding: 20px 0;
+}
+.blank1{
+  width: 110px;
+}
+.sub{
+  display: flex;
+  height: 40px;
+  padding: 10px;
+}
+.sub img{
+  height: 100%;
+}
+.video{
+  /* background-color: #898; */
+}
+.row{
+  margin-bottom: 5px;
+  /* background-color: #c92; */
+  padding: 10px 0;
+  display: flex;
+}
+.no{
+  padding: 30px 8px;
+  /* background-color: #fa0; */
+}
+.row img{}
+.content{
+  padding: 0 10px;
+}
+.content h5{
+  /* line-height: px; */
+font-size: 17px;
+}
+.smallchannel{
+  margin-top: 2px;
+  font-size: 15px;
+}

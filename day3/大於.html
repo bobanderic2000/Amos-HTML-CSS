@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 例外狀況， > 不算分，所以第9、10行是同分的 */
+    p > span{ color: pink; }
+    p span{ color: blue; }
+    span{ color: gray;}
+  </style>
+</head>
+<body>
+  <p class="box" id="amos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laboriosam hic atque harum vel ten <span>span</span>etur nisi eos eaque perspiciatis sit repudiandae ipsum amet facere possimus, aperiam cupiditate voluptatum placeat pariatur!</p>
+</body>
+</html>

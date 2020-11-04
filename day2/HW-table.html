@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Table-homework</title>  
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+  }
+  html, body{
+    height: 100%;
+  }
+  body{
+    display: flex;
+    align-items: center;
+  }
+  .table{
+    width: 800px;
+    margin: auto;
+
+  }
+  .table table{
+    border: 3px solid #666;
+    border-collapse: collapse;
+  }
+  .table tr{
+    text-align: center;
+  }
+  .table th{
+    border: 1px solid #aac;
+    padding: 6px 10px;
+    text-align: center;
+    background-color: #fa0;
+  }
+  .table th:nth-child(1){
+    background-color: #fff;
+  }
+  .table td{
+    border: 1px solid #aac;
+    padding: 6px 10px;
+    text-align: center;
+  }
+  .table caption{
+    caption-side: bottom;
+  }
+.done{
+  background-color: #fc0;
+}
+</style>
+ </head>
+ <body>
+   
+<div class="table">
+  <table>
+    <caption >started recording since 2020/10/29</caption>
+    <thead>
+      <tr>
+        <th scope="row">六倍紅寶石</th>
+        <th scope="col">Git</th>
+        <th scope="col">HTML</th>
+        <th scope="col">CSS</th>
+        <th scope="col">Javascript</th>
+        <th scope="col">Ruby</th>
+        <th scope="col">Rails</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="6">完成度</td>
+        <td class="done">1</td>
+        <td class="done">1</td>
+        <td class="done">1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+        <td class="done">2</td>
+        <td class="done">2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="done">3</td>
+        <td class="done">3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="done">4</td>
+        <td class="done">4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td class="done">5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>6</td>
+        <td>6</td>
+        <td>6</td>
+        <td>6</td>
+        <td>6</td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>44%</td>
+        <td colspan="6">再不看啊</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+
+
+
+
+ </body>
+ </html>

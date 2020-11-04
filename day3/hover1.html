@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p > span{ color: gray; }
+    /* p後面空一格是指定p裡面的標籤 */
+    p :hover{ color:red; }
+    /* 沒有空格，是指定p本身 */
+    /* p:hover{ color: green; } */
+
+    /* 兩種hover都寫的時候，滑鼠碰到span時，p也會啟動變色，這是因為碰到p的block區域? 區域? 還是因為p把span包起來? */
+
+  </style>
+</head>
+<body>
+  <p class="box" id="amos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laboriosam hic atque harum vel ten <span> span Lorem, ipsum.</span>etur nisi eos eaque perspiciatis sit repudiandae ipsum amet facere possimus, aperiam cupiditate voluptatum placeat pariatur!</p>
+</body>
+</html>
