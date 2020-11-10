@@ -1,0 +1,79 @@
+body{
+  background-color: #2b3338;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+.wrap{
+  width: 1280px;
+  display: flex;
+  justify-content: space-around;
+  margin: 90px auto 0;
+}
+.contact-info{
+  width: 470px;
+}
+h2{
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #3d6dc4;
+  margin-bottom: 22px;
+  }
+h3{
+  font-size: 32px;
+  margin-bottom: 28px;
+  
+  }
+p{
+  line-height: 26px;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 35px;
+}
+.info>div{
+  display: flex;
+  align-items: center;
+}
+.info img{
+  width: 50px;
+  margin-right: 10px;
+}
+.info span{ 
+  font-size: 22px;
+  font-weight: extra-light;
+}
+.sendblock{
+  width: 570px;
+}
+/* form{} */
+input,textarea{
+  display: block;
+  width: 570px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: white;
+  padding: 0 0 15px;
+  margin: 0 0 50px;
+}
+textarea{
+  height: 95px;
+}
+::placeholder{
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+button{
+  /* display: block; */
+  background-color: #1982fb;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 25px;
+  border: none;
+}
