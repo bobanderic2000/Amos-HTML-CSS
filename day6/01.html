@@ -5,26 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    .aa,.bb,.cc{
+      padding: 50px;
+      border: 4px green solid;
+    }
+    .aa{
+      /* position: relative; */
+    }
+    html{
+      /* position: relative; */
+    }
+    body{
+      /* position: relative; */
+    }
     .box{
       position: fixed;
     }
-    .box1{
-      background-color: red;
-      top: 0;
+    .box0{
+      background-color: pink;
+      width: 100px;
+      height: 200px;
+      position: absolute;
       bottom: 0;
-      left: 0;;
-      right: 0;
+      left: 0;
+    }
+    .box1{
+      background-color: blue;
+      width: 100px;
+      height: 50px;
+      /* top: 0; */
+      bottom: 0;
+      right: 0; 
     }
     .box2{
-      width: 100px;
-      height: 100px;
-      background-color: blue;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      margin: auto;
-      z-index: 1;
+      background-color: #fb6;
+      height: 50px;
     }
+    
   </style>
 </head>
 <body>
@@ -32,9 +49,17 @@
 
 
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
+  <div class="aa">
+    <div class="bb">
+      <div class="cc">
+        <div class="box0">box0</div>
+      </div>
+    </div>
+  </div>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
   <div class="box box2">box2</div>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
+ 
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus harum ipsam ab vitae? Explicabo tempora, nisi ut vero reiciendis laborum enim aut tenetur sed, ad blanditiis dolores vitae veritatis.</p>
